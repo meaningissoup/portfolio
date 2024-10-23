@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <audio id="player" src="squeak.mp3"></audio>
 </head>
 <body>
     <div class="w3-top">
@@ -24,7 +26,7 @@
             <img src="soupnjorgan.jpg" width="50%">
         </div>
         <p class="w3-center">
-            I’m currently a second-year physics student with a deep fascination for the quantum world and a passion for unraveling the complex mathematics that govern it. Alongside physics, I’m equally enthusiastic about computer science, and computational physics, and am a firm believer in the importance of AI in the future of science. I focus on creating intuitive tools that help simplify and enhance the understanding of physical concepts in an engaging way. Through my projects, I aim to make learning more accessible.
+            Hi! I'm Ash Muldoon. I’m currently a second-year physics student with a deep fascination for the quantum world and a passion for unraveling the complex mathematics that govern it. Alongside physics, I’m equally enthusiastic about computer science, and computational physics, and am a firm believer in the importance of AI in the future of science. I focus on creating intuitive tools that help simplify and enhance the understanding of physical concepts in an engaging way. Through my projects, I aim to make learning more accessible.
         </p>
         <p class="w3-center">
             As an autistic student and proud disability advocate, I’m passionate about promoting inclusivity and neurodiversity. In my first year of college, I was elected to be the Chair of the <a href="https://trinitynews.ie/2024/03/trinity-musical-theatre-lands-top-awards-at-csc-society-of-the-year-awards-2/">award-winning</a> Neurodiversity Society, where I led efforts that resulted in its official recognition by Trinity College Dublin. I’m driven by a desire to create spaces where everyone, regardless of background, ability, or neurotype, can learn and succeed. This desire majourly impacts the projects I choose to take on, focusing greatly on intuitive learning methods and new ways of conceptualising physical concepts that don't necessarily adhere to the traditional schooling system.
@@ -32,15 +34,57 @@
     </div>
 
     <div class="w3-container w3-padding-32" id="projects">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-24 w3-margin-top w3-center">Projects</h3>
-        <div class="w3-center w3-padding-16">
-            <img src="soupnjorgan.jpg" width="50%">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-24 w3-center">Projects</h3>
+        
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-center w3-center w3-black w3-padding">Electron Sonifier</div>
+                    <img src="electronsonifier.png" alt="The image for an electron sonifier. A square poster with a light blue background covered in maths symbols. There is a graphic of an arrow pointing from an atom to a stave of sheet music" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <a href="https://meaningissoup.github.io/athackathon/">
+                        <div class="w3-display-center w3-center w3-black w3-padding">Assistive Tech Hackathon</div>
+                        <img src="athackathonposter.png" alt="A white and light blue spotted poster with the DUNeS logo in the top centre.
+                        The text reads: 'Assistive Tech Hackathon. 16th & 17th November, 10am - 6pm. An Mheitheal, Printing House Square.'
+                        More info at: https://meaningissoup.github.io/athackathon/ (the link is also in our bio).
+                        There is an ADHD creature with a hard hat and blueprints standing next to an autism creature with a laptop at the bottom of the poster. There are graphics of cogs and a lightbulb at the top of the poster." style="width:99%">
+                    </a>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-center w3-center w3-black w3-padding">Intervarsity Neurodiversity Conference</div>
+                    <img src="wip.png" alt="A blue poster of an ADHD creature in a hard hat with a blueprint in front of them. There is text circling them that reads 'Work in Progress'. There are blue gears to the top right and bottom left of the poster." style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <a href="https://meaningissoup.github.io/athackathon/">
+                        <div class="w3-display-center w3-center w3-black w3-padding">WIP</div>
+                        <img src="wip.png" alt="A blue poster of an ADHD creature in a hard hat with a blueprint in front of them. There is text circling them that reads 'Work in Progress'. There are blue gears to the top right and bottom left of the poster." style="width:99%">
+                    </a>
+                </div>
+            </div>
+        </div>        
+
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-24 w3-margin-top w3-center">Contact</h3>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-center m6 w3-large w3-margin-bottom">
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: ashsmuldoon@gmail.com<br>
+                    <i class="fa fa-instagram" style="width:30px"> </i> Instagram: @meaningissoup<br>
+                    <a onclick="document.getElementById('player').play()"><img src="id-image-rat.webp" height="50px" width="50px" alt="A brown rat that squeaks when you press them"></a>
+                    <p class="w3-opacity w3-center">
+                        CSS graciously provided by w3 schools! :D
+                    </p>
+                </div>
+            </div>
         </div>
-        <p class="w3-center">
-            I’m currently a second-year physics student with a deep fascination for the quantum world and a passion for unraveling the complex mathematics that govern it. Alongside physics, I’m equally enthusiastic about computer science, and computational physics, and am a firm believer in the importance of AI in the future of science. I focus on creating intuitive tools that help simplify and enhance the understanding of physical concepts in an engaging way. Through my projects, I aim to make learning more accessible.
-        </p>
-        <p class="w3-center">
-            As an autistic student and proud disability advocate, I’m passionate about promoting inclusivity and neurodiversity. In my first year of college, I was elected to be the Chair of the <a href="https://trinitynews.ie/2024/03/trinity-musical-theatre-lands-top-awards-at-csc-society-of-the-year-awards-2/">award-winning</a> Neurodiversity Society, where I led efforts that resulted in its official recognition by Trinity College Dublin. I’m driven by a desire to create spaces where everyone, regardless of background, ability, or neurotype, can learn and succeed. This desire majourly impacts the projects I choose to take on, focusing greatly on intuitive learning methods and new ways of conceptualising physical concepts that don't necessarily adhere to the traditional schooling system.
-        </p>
+
+
     </div>
+
 </body>
